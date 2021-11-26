@@ -6,6 +6,7 @@ go_library(
     importpath = "chapter-1/section-1",
 )
 
+# bazel run //chapter-1/section-1
 go_binary(
     name = "section-1",
     embed = [":section-1-lib"],
